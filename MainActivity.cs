@@ -25,6 +25,7 @@ namespace dfgfgfghfg
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			Console.WriteLine ("push with wrong password");
+			Console.WriteLine ("push with wrong password");
 
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
